@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Mesh>
+	<Vertices> mesh.geo </Vertices>
+	<Texture> 
+		<Filename> texture2.jpg </Filename>
+
+		<Region>
+			<Name> pavement </Name>
+			<Code>5</Code>
+			<BottomLeftX>20</BottomLeftX>
+			<BottomLeftY>20</BottomLeftY>
+			<TopRightX>1490</TopRightX>
+			<TopRightY>1000</TopRightY>
+		</Region>
+
+		<Region>
+			<Name> grass </Name>
+			<Code>1</Code>
+			<Code>0</Code>
+			<BottomLeftX>10</BottomLeftX>
+			<BottomLeftY>1040</BottomLeftY>
+			<TopRightX>1490</TopRightX>
+			<TopRightY>1800</TopRightY>
+		</Region>
+
+		<Region>
+			<Name> white </Name>
+			<Code>3</Code>
+			<Code>4</Code>
+			<BottomLeftX>10 </BottomLeftX>
+			<BottomLeftY>1830 </BottomLeftY>
+			<TopRightX>1490</TopRightX>
+			<TopRightY>2040</TopRightY>
+		</Region>
+	</Texture>
+
+	<Terrain>
+		<Vertices> terrain.geo </Vertices>
+		<Texture> dirt.jpg </Texture>
+	</Terrain>
+</Mesh>

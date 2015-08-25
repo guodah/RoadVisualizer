@@ -1,0 +1,51 @@
+Aug 21, 2015 11:30:35 AM com.sim.central.RoadDesign start
+INFO: Starting RoadDesign
+Aug 21, 2015 11:30:36 AM com.sim.central.RoadDesign installHandlers
+INFO: Installing event handlers for application frame components...
+Aug 21, 2015 11:30:37 AM com.sim.central.RoadDesign installHandlers
+INFO: Installing event handlers for application frame components...Succeed
+Aug 21, 2015 11:30:37 AM com.sim.central.RoadDesign installBuilders
+INFO: Installing builders for network components...
+Aug 21, 2015 11:30:37 AM com.sim.central.RoadDesign installBuilders
+INFO: Installing builders for network components...Succeed
+Aug 21, 2015 11:30:37 AM com.sim.network.RoadNetworkController findController
+INFO: Building road network controller
+Aug 21, 2015 11:30:37 AM com.sim.network.RoadNetworkController findController
+INFO: Building road network controller...Succeed
+Aug 21, 2015 11:30:37 AM com.sim.central.RoadDesign start
+INFO: RoadDesign started
+Aug 21, 2015 11:31:09 AM com.sim.central.RoadDesign getXsec
+INFO: XSEC: numOfLanes = 2 laneWidth = 12.0 laneSlope = 2.0 shoulderWidth = 10.0 shoulderSlope = 4.0 medianWidth = 20.0
+Aug 21, 2015 11:31:09 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_ADD: (-2443.000, 1397.000, 0.000)
+Aug 21, 2015 11:31:11 AM com.sim.central.RoadDesign getCurveParam
+INFO: CURVE_PARAM: SPEED=35.000 GRADE=0.000 SUPERELEVATION=4.000 
+Aug 21, 2015 11:31:11 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_ADD: (-1053.000, -528.000, 0.000)
+Aug 21, 2015 11:31:14 AM com.sim.central.RoadDesign getCurveParam
+INFO: CURVE_PARAM: SPEED=35.000 GRADE=0.000 SUPERELEVATION=4.000 
+Aug 21, 2015 11:31:15 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_ADD: (2242.000, -268.000, 0.000)
+Aug 21, 2015 11:31:15 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_CLOSE: (2762.000, 362.000, 0.000)
+Aug 21, 2015 11:31:19 AM com.sim.central.RoadDesign getXsec
+INFO: XSEC: numOfLanes = 1 laneWidth = 12.0 laneSlope = 0.0 shoulderWidth = 10.0 shoulderSlope = 2.0 medianWidth = 20.0
+Aug 21, 2015 11:31:19 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_ADD: (742.000, -1568.000, 0.000)
+Aug 21, 2015 11:31:22 AM com.sim.central.RoadDesign getCurveParam
+INFO: CURVE_PARAM: SPEED=35.000 GRADE=0.000 SUPERELEVATION=4.000 
+Aug 21, 2015 11:31:22 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_ADD: (537.000, 1237.000, 0.000)
+Aug 21, 2015 11:31:23 AM com.sim.gui.handler.MainMouseHandler mouseClicked
+INFO: PT_CLOSE: (982.000, 1207.000, 0.000)
+Aug 21, 2015 11:31:30 AM com.sim.central.RoadDesign confirm
+INFO: USER_CHOICE: YES E:\journal\interview prep\projects\RoadDesign\roaddesign\model is not empty!
+Do you want to override these files.
+Aug 21, 2015 11:31:34 AM com.sim.io.exporters.basic.BasicHeightMapExporter export
+INFO: Height map saved successfully
+Aug 21, 2015 11:31:34 AM com.sim.gui.handler.SaveHandler actionPerformed
+INFO: Model saved to E:\journal\interview prep\projects\RoadDesign\roaddesign\model
+Aug 21, 2015 11:31:34 AM com.sim.central.RoadDesign$1 run
+INFO: Starting the renderer...
+Aug 21, 2015 11:32:10 AM com.sim.central.RoadDesign$1 run
+INFO: The renderer completes successfully

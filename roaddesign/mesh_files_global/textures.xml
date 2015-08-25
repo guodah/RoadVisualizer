@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<TextureDirectory>
+	<Texture> 
+		<Filename> grass_texture.png </Filename>
+		<Region>
+			<Name> median </Name>
+			<Code>0</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>511</TopRightX>
+			<TopRightY>511</TopRightY>
+		</Region>
+	</Texture>
+	
+	<Texture>
+		<Filename> grass_texture.png </Filename>
+		<Region>
+			<Name> shoulder </Name>
+			<Code>1</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>511</TopRightX>
+			<TopRightY>511</TopRightY>
+		</Region>
+	</Texture>
+
+	<Texture> 
+		<Filename> road_surface2.jpg </Filename>
+
+		<Region>
+			<Name> pavement </Name>
+			<Code>5</Code>
+			<BottomLeftX>1023</BottomLeftX>
+			<BottomLeftY>1023</BottomLeftY>
+			<TopRightX>0</TopRightX>
+			<TopRightY>0</TopRightY>
+		</Region>
+	</Texture>
+	
+	<Texture> 
+		<Filename> solid_white1.png </Filename>
+	
+		<Region>
+			<Name> solid_white_left </Name>
+			<Code>6</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>127</TopRightX>
+			<TopRightY>255</TopRightY>
+		</Region>
+	
+		<Region>
+			<Name> solid_white_right </Name>
+			<Code>7</Code>
+			<BottomLeftX>127</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>0</TopRightX>
+			<TopRightY>255</TopRightY>
+		</Region>
+	</Texture>
+	
+	<Texture> 
+		<Filename> white.jpg </Filename>
+	
+		<Region>
+			<Name> white </Name>
+			<Code>3</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>63</TopRightX>
+			<TopRightY>255</TopRightY>
+		</Region>
+	</Texture>
+	
+	<Texture> 
+		<Filename> pavement.jpg </Filename>
+	
+		<Region>
+			<Name> pavement </Name>
+			<Code>8</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>255</TopRightX>
+			<TopRightY>255</TopRightY>
+		</Region>
+	</Texture>
+
+	<Texture>
+		<Filename> dirt.jpg </Filename>
+		<Region>
+			<Name> terraint </Name>
+			<Code>9</Code>
+			<BottomLeftX>0</BottomLeftX>
+			<BottomLeftY>0</BottomLeftY>
+			<TopRightX>255</TopRightX>
+			<TopRightY>255</TopRightY>
+		</Region>
+
+	</Texture>
+	
+</TextureDirectory>
+

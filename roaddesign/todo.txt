@@ -1,0 +1,4 @@
+1. Github
+2. Integration Test using Junit and EclEmma
+3. Add more GUI prompt/instructions.
+4. write some documents
