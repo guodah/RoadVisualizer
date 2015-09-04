@@ -73,16 +73,19 @@ public class JRoadDesignFrame extends JFrame{
 		toolBar.setBorder(new EtchedBorder());
 		toolBar.setLayout(new FlowLayout(FlowLayout.LEFT));
 				
+		// adds an icon that clears road design
 	    JButton action = new JButton(new ImageIcon("icons/new_32.png"));
 	    action.setToolTipText("Create a new road network");
 	    toolBar.add(action);
 	    components.put(FrameComponents.TOOLBAR_NEW, action);
 	    
+	    // Adds save icon to toolbar in gui
 	    action = new JButton(new ImageIcon("icons/save_32.png"));
 	    toolBar.setToolTipText("Save the graphics model");
 	    toolBar.add(action);
 	    components.put(FrameComponents.TOOLBAR_SAVE_MODEL, action);
 	    
+	    // Adds an icon to renders 3d model of roadway
 	    action = new JButton(new ImageIcon("icons/render.png"));
 	    action.setToolTipText("Render the road");
 	    toolBar.add(action);
