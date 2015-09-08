@@ -168,7 +168,7 @@ public class JXsecEditor extends JDialog
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() instanceof JButton){
 			try{
-				if(e.getSource()==okButton){
+				if(e.getSource()==okButton && verifyInput()){
 					RoadDesign.drop(readXsec());
 					setVisible(false);
 				}else if(e.getSource()==cancelButton){
@@ -193,7 +193,7 @@ public class JXsecEditor extends JDialog
 					readXsec().saveXML(path);
 				}
 			}catch(NumberFormatException ee){
-				RoadDesign.displayError("Please input only numbers", "Input Error(s)", false);
+				RoadDesign.displayError("Please input only non-negative numbers", "Input Error(s)", false);
 				
 			}
 		}else{
@@ -235,16 +235,18 @@ public class JXsecEditor extends JDialog
 	public void focusLost(FocusEvent arg0) {
 		
 		if(!verifyInput()){
-			RoadDesign.displayError("Please input only numbers", "Input Error(s)", false);
+			RoadDesign.displayError("Please input only non-negative numbers", "Input Error(s)", false);
 		}else{
 			xsecDisplayPanel.repaint();
 		}
 	}
 	
+	// verifies user input in road drawing content menu
 	private boolean verifyInput(){
-		try{
-			Float.parseFloat(medianWidthInput.getText());
-			Float.parseFloat(shoulderWidthInput.getText());
+		try{ 
+			if (Float.parseFloat(shoulderWidthInput.getText()) < 0 || Float.parseFloat(medianWidthInput.getText()) < 0){ // verifies input is a valid float and input is not negative
+				return false;
+			}
 			return true;
 		}catch(NumberFormatException e){
 			return false;

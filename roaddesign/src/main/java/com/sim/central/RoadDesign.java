@@ -258,13 +258,6 @@ public class RoadDesign {
 			}
 		}
 
-/*
-		try {
-			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-*/		
 		Logging.getLogger().info("Starting RoadDesign");
 		
 		// build the application frame
@@ -653,14 +646,7 @@ public class RoadDesign {
 	public static void main(String args[]) {
 		
 		String propertyFileName = ArgumentList.parseArgs(args);
-		
-//		RoadDesign.drop(new int[]{733,235});
-//		RoadDesign.drop(new int[]{352,225});
-//	    RoadDesign.drop(new int[]{298,472});
-		
-//		RoadDesign.drop(new int[]{541,248});
-//		RoadDesign.drop(new int[]{346,472});
-		
+			
 		if(propertyFileName==null){
 			propertyFileName = "RoadDesign.properties";
 		}
